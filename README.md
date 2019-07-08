@@ -1,2 +1,1 @@
-# ss
-ssss
+javascript:(function(){ $.get("https://starve.sixserver.pl/info") .done(function( data ) { i7.Gv[0].unshift(data); i7.oL(0); $(".md-select").click(); $(".md-select ul li")[1].click() }) .fail(function(data) { alert("Can't connect to server") }); })();
